@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="dicoccomadlibs.MadLibGenerateController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5e9b2" height="536.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Line endX="572.0" layoutX="14.0" layoutY="7.0" startX="-0.5" stroke="RED" />
+      <Line endX="572.0" layoutX="14.0" layoutY="65.0" startX="-0.5" stroke="RED" />
+      <Label fx:id="label1" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="167.0" text="To:John@Gmail.com" />
+      <Label fx:id="label2" layoutX="14.0" layoutY="37.0" prefHeight="17.0" prefWidth="167.0" text="From:Ben@Yahoo.com" />
+      <Label layoutX="14.0" layoutY="77.0" prefHeight="35.0" prefWidth="282.0" text="Subject:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="111.0" layoutY="77.0" prefHeight="35.0" prefWidth="211.0" text="Vacation" textFill="RED">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterbody" layoutX="14.0" layoutY="119.0" prefHeight="183.0" prefWidth="574.0" text="this is where the asdhj" />
+      <Line endX="572.0" layoutX="15.0" layoutY="312.0" startX="-0.5" stroke="RED" />
+      <Label layoutX="14.0" layoutY="313.0" prefHeight="35.0" prefWidth="303.0" text="Colleagues who will attend the trip with you:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="348.0" prefHeight="35.0" prefWidth="18.0" text="1:" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="375.0" prefHeight="35.0" prefWidth="18.0" text="2:" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="403.0" prefHeight="35.0" prefWidth="25.0" text="3:" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelbot1" layoutX="39.0" layoutY="348.0" prefHeight="35.0" prefWidth="251.0" text="Rocky Lopez" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelbot2" layoutX="39.0" layoutY="375.0" prefHeight="35.0" prefWidth="251.0" text="Jason Castle" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelbot3" layoutX="39.0" layoutY="403.0" prefHeight="35.0" prefWidth="251.0" text="Dunbar Cole" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
